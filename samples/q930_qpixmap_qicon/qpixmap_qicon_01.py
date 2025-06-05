@@ -11,8 +11,6 @@ QPixmapは画像の表示と操作、QIconは様々なサイズのアイコン�
 - プログラムで画像を生成する方法
 - 実用的なアイコンとプレビュー機能
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import math

@@ -12,8 +12,6 @@ QLineEditは、1行のテキスト入力を可能にするウィジェットで�
 - エコーモード（パスワード入力）
 - シグナルとスロットによるイベント処理
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import re

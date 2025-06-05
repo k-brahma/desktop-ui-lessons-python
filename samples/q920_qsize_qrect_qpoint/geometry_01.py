@@ -10,8 +10,6 @@ QSize, QRect, QPoint基本サンプル - 基本図形クラスの操作
 - QRectによる矩形領域の操作
 - ウィジェットでの実用的な使用例
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import math

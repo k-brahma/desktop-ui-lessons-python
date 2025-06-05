@@ -11,8 +11,6 @@ QGroupBoxは、関連するウィジェットをグループ化し、視覚的�
 - スタイリングとカスタマイズ
 - ネストしたグループボックス
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

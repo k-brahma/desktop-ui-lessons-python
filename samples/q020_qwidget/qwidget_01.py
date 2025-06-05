@@ -11,8 +11,6 @@ QWidgetは、すべてのユーザーインターフェース要素の基底ク�
 - 基本的なスタイリング
 - 子ウィジェットの配置
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

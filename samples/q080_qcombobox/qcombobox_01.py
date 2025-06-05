@@ -11,8 +11,6 @@ QComboBoxは、複数の選択肢から一つを選択できるドロップダ�
 - データ付きアイテムの使用
 - シグナルとスロットによるイベント処理
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

@@ -10,8 +10,6 @@ QColorは色を表現し操作するためのクラスで、様々な色空間�
 - スタイルシートでの色の使用
 - よく使用される色パレット
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

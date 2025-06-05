@@ -11,8 +11,6 @@ QTableWidgetは、表形式のデータを表示・編集するためのウィ�
 - 選択動作の制御
 - 基本的なテーブル操作
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

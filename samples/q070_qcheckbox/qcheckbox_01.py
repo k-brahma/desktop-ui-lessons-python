@@ -11,8 +11,6 @@ QCheckBoxは複数選択可能なオプション、QRadioButtonは単一選択�
 - チェック状態の管理と同期
 - シグナルとスロットによるイベント処理
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

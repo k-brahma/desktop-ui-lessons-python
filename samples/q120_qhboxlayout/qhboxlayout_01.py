@@ -11,8 +11,6 @@ QHBoxLayoutは、ウィジェットを水平方向（左から右）に配置す
 - QVBoxLayoutとの組み合わせ
 - マージンとパディングの制御
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

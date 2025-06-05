@@ -11,8 +11,6 @@ QSizePolicyは、ウィジェットがレイアウト内でどのようにサイ
 - 最小・最大・推奨サイズの設定
 - 実用的なレイアウト例
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

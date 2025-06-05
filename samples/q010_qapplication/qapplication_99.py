@@ -9,9 +9,6 @@ QApplication高度サンプル - アプリケーション属性とイベント�
 - 終了時のクリーンアップ処理
 - シグナルとスロットの基本的な使用
 - アプリケーション全体での状態管理
-
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

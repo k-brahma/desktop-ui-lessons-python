@@ -11,8 +11,6 @@ QMainWindowは、メニューバー、ツールバー、ステータスバー、
 - ウィンドウのタイトルとサイズ設定
 - 基本的なレイアウト管理
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

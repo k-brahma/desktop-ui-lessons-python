@@ -11,8 +11,6 @@ QFontは、テキストの表示に使用するフォントのプロパティを
 - システムフォントの取得と使用
 - アプリケーション全体でのフォント統一
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

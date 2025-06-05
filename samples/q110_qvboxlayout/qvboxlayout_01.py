@@ -11,8 +11,6 @@ QVBoxLayoutは、ウィジェットを縦方向（垂直方向）に配置する
 - ストレッチファクターの使用
 - レイアウトの入れ子構造
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

@@ -11,8 +11,6 @@ QValidatorは、ユーザー入力の妥当性を検証するためのクラス�
 - 入力制限とフィードバック表示
 - 実用的な検証例（メール、電話番号、パスワード等）
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import re

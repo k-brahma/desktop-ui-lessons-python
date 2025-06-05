@@ -11,8 +11,6 @@ QPushButtonは、クリック可能なボタンウィジェットで、最も一
 - 無効化と有効化
 - シグナルとスロットの基本
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

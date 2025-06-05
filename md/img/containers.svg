@@ -1,0 +1,57 @@
+<svg width="950" height="200" viewBox="0 0 950 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- SVGのサイズとビューボックスを定義 -->
+  <!-- 1cmを10pxとして計算: 幅60cm=600px, 高さ3cm=30px, 奥行き60cm=600px -->
+  <!-- より上から見下ろす視点に調整 (奥行き方向のYオフセットを大きくする) -->
+  <!-- QApplicationの奥行きオフセット: X方向に200px, Y方向に-120px -->
+
+  <!-- QApplication (最下段の青い直方体) -->
+  <!-- 前面 (rect) -->
+  <rect x="50" y="150" width="600" height="30" fill="#4A90E2" stroke="#2C5B8B" stroke-width="2" />
+  <!-- 上面 (polygon) -->
+  <polygon points="50,150 650,150 850,30 250,30" fill="#6DAFF7" stroke="#2C5B8B" stroke-width="2" />
+  <!-- 右側面 (polygon) -->
+  <polygon points="650,150 650,180 850,60 850,30" fill="#3A7BD5" stroke="#2C5B8B" stroke-width="2" />
+  <!-- ラベル -->
+  <text x="350" y="200" font-family="Inter" font-size="14" fill="#333" text-anchor="middle">QApplication(見えないが存在する)</text>
+
+  <!-- QMainWindow (QApplicationの上に配置されるオレンジ色の直方体) -->
+  <!-- サイズ: 青い直方体の80% (幅480px, 高さ24px) -->
+  <!-- QMainWindowの奥行きオフセット: X方向に160px, Y方向に-96px (QApplicationの80%) -->
+  <!-- QMainWindowの前面のトップ左Y座標は、QApplicationのトップY (150px) から自身の高さ分(24px) 上に設定 -->
+  <!-- 上面 (polygon) -->
+  <polygon points="110,126 590,126 750,30 270,30" fill="#FFAD33" stroke="#CC6600" stroke-width="2" />
+  <!-- 前面 (rect) -->
+  <rect x="110" y="126" width="480" height="24" fill="#FF8C00" stroke="#CC6600" stroke-width="2" />
+  <!-- 右側面 (polygon) -->
+  <polygon points="590,126 590,150 750,54 750,30" fill="#E67300" stroke="#CC6600" stroke-width="2" />
+  <!-- ラベル -->
+  <text x="350" y="170" font-family="Inter" font-size="14" fill="#333" text-anchor="middle">QMainWindow</text>
+
+  <!-- QLabel (QMainWindowの上に配置される小型要素) -->
+  <!-- 幅: 150px, 高さ: 20px。奥行きオフセット: X方向に24px, Y方向に-14px -->
+  <!-- QMainWindowの奥まった位置に配置 -->
+  <polygon points="250,50 400,50 424,36 274,36" fill="#E0E0E0" stroke="#808080" stroke-width="1" />
+  <rect x="250" y="50" width="150" height="20" fill="#D3D3D3" stroke="#808080" stroke-width="1" />
+  <polygon points="400,50 400,70 424,56 424,36" fill="#BEBEBE" stroke="#808080" stroke-width="1" />
+  <!-- ラベル -->
+  <text x="325" y="65" font-family="Inter" font-size="10" fill="#333" text-anchor="middle">QLabel</text>
+
+  <!-- QLineEdit (QMainWindowの上に配置される小型要素) -->
+  <!-- 幅: 250px, 高さ: 25px。奥行きオフセット: X方向に24px, Y方向に-14px -->
+  <!-- QLabelの右横に配置 -->
+  <polygon points="410,50 660,50 684,36 434,36" fill="#F8F8F8" stroke="#A0A0A0" stroke-width="1" />
+  <rect x="410" y="50" width="250" height="25" fill="#FFFFFF" stroke="#A0A0A0" stroke-width="1" />
+  <polygon points="660,50 660,75 684,61 684,36" fill="#EAEAEA" stroke="#A0A0A0" stroke-width="1" />
+  <!-- ラベル -->
+  <text x="535" y="67.5" font-family="Inter" font-size="10" fill="#333" text-anchor="middle">QLineEdit</text>
+
+  <!-- QPushButton (QMainWindowの上に配置される小型要素) -->
+  <!-- 幅: 100px, 高さ: 30px。奥行きオフセット: X方向に24px, Y方向に-14px -->
+  <!-- QLabelとQLineEditより手前（画面下側）に配置 -->
+  <!-- X座標はそのまま、Y座標を+10px調整してさらに手前に移動 -->
+  <polygon points="415,90 515,90 539,76 439,76" fill="#66BB6A" stroke="#388E3C" stroke-width="1" />
+  <rect x="415" y="90" width="100" height="30" fill="#4CAF50" stroke="#388E3C" stroke-width="1" />
+  <polygon points="515,90 515,120 539,106 539,76" fill="#388E3C" stroke="#388E3C" stroke-width="1" />
+  <!-- ラベル -->
+  <text x="465" y="110" font-family="Inter" font-size="10" fill="white" text-anchor="middle">QPushButton</text>
+</svg>

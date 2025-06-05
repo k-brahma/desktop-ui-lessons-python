@@ -9,9 +9,6 @@ QApplication基本サンプル - アプリケーションの基本構造
 - ウィンドウの表示
 - イベントループの開始と終了
 - アプリケーションの適切な終了処理
-
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys
@@ -19,7 +16,7 @@ import sys
 from PySide6.QtWidgets import QApplication, QWidget
 
 
-class SimpleWindow(QWidget):
+class SampleWindow(QWidget):
     """
     最小限のウィンドウクラス
     
@@ -29,7 +26,7 @@ class SimpleWindow(QWidget):
     
     def __init__(self):
         """
-        SimpleWindowクラスのコンストラクタ
+        SampleWindowクラスのコンストラクタ
         
         ウィンドウのタイトルとサイズを設定します。
         """
@@ -49,18 +46,18 @@ def main():
     4. アプリケーションの終了
     """
     # 1. QApplicationインスタンスを作成
-    # sys.argvを渡すことで、コマンドライン引数を処理できる
-    app = QApplication(sys.argv)
+    app = QApplication()
     
     # 2. ウィンドウを作成
-    window = SimpleWindow()
+    window = SampleWindow()
     
     # 3. ウィンドウを表示
     window.show()
     
     # 4. イベントループを開始し、アプリケーションの終了コードで終了
     # app.exec()はユーザーがアプリケーションを終了するまでブロックされる
-    sys.exit(app.exec())
+    # sys.exit(app.exec())
+    app.exec()
 
 
 if __name__ == "__main__":

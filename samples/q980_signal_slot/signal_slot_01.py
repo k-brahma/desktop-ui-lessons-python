@@ -11,8 +11,6 @@ Signal & Slot基本サンプル - シグナルとスロットによる通信
 - シグナルチェーンとデータバインディング
 - 実用的なアプリケーション例
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import random

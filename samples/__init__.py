@@ -67,8 +67,6 @@ Prerequisites:
 - PySide6 (`pip install PySide6`)
 - 基本的なPythonのオブジェクト指向プログラミングの理解
 
-Authors: PySide6 Learning Team
-Date: 2024
 License: MIT
 """
 

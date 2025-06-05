@@ -11,8 +11,6 @@ QMessageBoxは、ユーザーに情報を表示したり、確認を求めたり
 - 戻り値による処理の分岐
 - アイコンとテキストのカスタマイズ
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

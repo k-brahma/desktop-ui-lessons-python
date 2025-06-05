@@ -12,8 +12,6 @@ PySide6全体で使用される重要な定数を提供します。
 - テキスト選択とインタラクション
 - フォーカスポリシーの設定
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

@@ -11,8 +11,6 @@ StyleSheetはCSSライクな記法でウィジェットの外観をカスタマ�
 - アニメーション効果とホバー効果
 - テーマの切り替えとスタイル管理
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys

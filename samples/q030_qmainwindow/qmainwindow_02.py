@@ -11,8 +11,6 @@ QMainWindow高度サンプル - メニュー、ツールバー、ステータス
 - アクションの作成と接続
 - ウィンドウの状態管理
 
-Authors: PySide6 Learning Team
-Date: 2024
 """
 
 import sys
