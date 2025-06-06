@@ -1,11 +1,11 @@
 """
-シンプルな非モーダルウィンドウ
+tkinter 非モーダルウィンドウ
 """
 import tkinter as tk
 from tkinter import messagebox
 
 
-class SimpleNonModalApp(tk.Tk):
+class NonModalWindowApp(tk.Tk):
     def __init__(self):
         super().__init__()
         
@@ -131,5 +131,5 @@ class SubWindow(tk.Toplevel):
         self.destroy()
 
 if __name__ == "__main__":
-    app = SimpleNonModalApp()
+    app = NonModalWindowApp()
     app.mainloop() 

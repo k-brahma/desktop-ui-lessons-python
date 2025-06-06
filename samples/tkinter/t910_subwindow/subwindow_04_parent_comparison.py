@@ -1,5 +1,5 @@
 """
-親ウィンドウ指定の有無による違いのテスト
+tkinter 親ウィンドウ指定の比較
 """
 import tkinter as tk
 

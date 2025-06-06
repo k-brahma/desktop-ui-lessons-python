@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-class SimpleModalApp(tk.Tk):
+class ModalDialogApp(tk.Tk):
     def __init__(self):
         super().__init__()
         
@@ -127,5 +127,5 @@ class SimpleDialog(tk.Toplevel):
         self.destroy()
 
 if __name__ == "__main__":
-    app = SimpleModalApp()
+    app = ModalDialogApp()
     app.mainloop() 
