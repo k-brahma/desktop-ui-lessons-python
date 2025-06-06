@@ -1,6 +1,8 @@
 # PySide6の動作の仕組み
 
-PySide6アプリケーションでは、主に**QApplication**と**QWidget**という2つのクラスのオブジェクトが階層を作って積み重なっています。
+## QApplication と QWiget
+
+PySide6アプリケーションは、**QApplication**と**QWidget**という2つのクラスのオブジェクトを積み上げて作ります。
 
 | クラス | 説明 |
 |--------|------|
