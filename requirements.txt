@@ -1,1 +1,2 @@
+# Required only for pyside6 sample codes
 PySide6>=6.9.1
