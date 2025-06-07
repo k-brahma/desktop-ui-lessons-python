@@ -22,13 +22,19 @@ class BasicMessageboxApp(tk.Tk):
         tk.Button(self, text="エラーを表示", command=self.show_error, width=15).pack(pady=5)
 
     def show_info(self):
+        print("show_infoがはじまります！")
         messagebox.showinfo("情報", "これは情報メッセージです。")
+        print("show_infoが終わります！")
 
     def show_warning(self):
+        print("show_warningがはじまりまず")
         messagebox.showwarning("警告", "これは警告メッセージです。")
+        print("show_warningがおまります")
 
     def show_error(self):
+        print("show_errorがはじまります")
         messagebox.showerror("エラー", "これはエラーメッセージです。")
+        print("show_errorがおまります")
 
 if __name__ == "__main__":
     app = BasicMessageboxApp()

@@ -14,3 +14,5 @@ app.geometry("300x200")
 
 # イベントループを開始
 app.mainloop()
+
+print("おわりました！")

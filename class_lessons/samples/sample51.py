@@ -3,9 +3,8 @@ class Human:
         self.name = name
         self.age = age
 
-    @property
-    def name_and_age(self):
-        return f'{self.name} {self.age}'
+    def jikoshokai(self):
+        return f'はじめまして！私は｛self.name｝です！'
 
 
 if __name__ == '__main__':
@@ -13,9 +12,4 @@ if __name__ == '__main__':
     print(h.name)
     print(h.age)
 
-    print(h.name_and_age)
-
-    h.name = "田中花子"
-    print(h.name_and_age)
-
-    # h.name_and_age = "ほげほげ治郎 30"
+    print(h.jikoshokai())
